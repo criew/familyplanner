@@ -16,6 +16,10 @@
   "users": [
     {
       "username": "testuser",
+      "email": "testuser@familyplanner.test",
+      "firstName": "Test",
+      "lastName": "User",
+      "emailVerified": true,
       "enabled": true,
       "credentials": [
         {

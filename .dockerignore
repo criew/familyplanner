@@ -1,0 +1,9 @@
+frontend/node_modules
+frontend/dist
+frontend/.env
+frontend/.env.*
+backend/.gradle
+backend/build
+e2e/node_modules
+e2e/test-results
+.git
