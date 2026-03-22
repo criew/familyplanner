@@ -12,14 +12,11 @@ export default function LoginPage() {
   return (
     <Box display="flex" justifyContent="center" alignItems="center" minHeight="100vh">
       <Card sx={{ minWidth: 320 }}>
-        <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}>
+        <CardContent
+          sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}
+        >
           <Typography variant="h5">familyplanner</Typography>
-          <Button
-            variant="contained"
-            size="large"
-            onClick={() => auth.signinRedirect()}
-            fullWidth
-          >
+          <Button variant="contained" size="large" onClick={() => auth.signinRedirect()} fullWidth>
             Mit Keycloak anmelden
           </Button>
         </CardContent>

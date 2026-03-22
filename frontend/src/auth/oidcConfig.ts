@@ -1,8 +1,7 @@
 import { WebStorageStateStore } from 'oidc-client-ts'
 
 export const oidcConfig = {
-  authority:
-    import.meta.env.VITE_OIDC_AUTHORITY ?? 'http://localhost:8180/realms/familyplanner',
+  authority: import.meta.env.VITE_OIDC_AUTHORITY ?? 'http://localhost:8180/realms/familyplanner',
   client_id: import.meta.env.VITE_OIDC_CLIENT_ID ?? 'familyplanner-frontend',
   redirect_uri: import.meta.env.VITE_OIDC_REDIRECT_URI ?? 'http://localhost:3000/callback',
   post_logout_redirect_uri:

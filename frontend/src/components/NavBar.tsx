@@ -4,8 +4,7 @@ import { useAuth } from 'react-oidc-context'
 
 export default function NavBar() {
   const auth = useAuth()
-  const username =
-    auth.user?.profile?.name ?? auth.user?.profile?.preferred_username ?? 'Benutzer'
+  const username = auth.user?.profile?.name ?? auth.user?.profile?.preferred_username ?? 'Benutzer'
 
   return (
     <AppBar position="static">
